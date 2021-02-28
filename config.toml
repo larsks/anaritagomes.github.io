@@ -1,4 +1,4 @@
-baseURL = "https://anaritagomes.github.io/portfolio/"
+baseURL = "https://anaritagomes.github.io/"
 languageCode = "en-us"
 title = "Rita Gomes"
 theme = "hugo-uilite"
