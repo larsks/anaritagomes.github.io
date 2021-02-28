@@ -1,0 +1,29 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "Jan 2020 - Present",
+			"company" : "Forschungszentrum Jülich - Institut für Energie und Klimaforschung - Troposphäre (IEK-8)",
+			"website": "https://www.fz-juelich.de/",
+			"description" : "I work side-by-side with environmental scientists to develop the necessary tools and data strategies for the processing of atmospheric data."
+		},
+		{
+			"timeperiod" : "Apr 2017 - Dic 2019",
+			"company" : "I2S Insurance Knowledge",
+			"website" : "https://i2s.pt/",
+			"description" : "Member of the Java Core team. Full-stack development and maintenance of I2S Life, an insurance business solution."
+		},
+		{
+			"timeperiod" : "Dic 2015 - Apr 2017",
+			"company" : "PRIME IT Consulting",
+			"website" : "https://www.primeit.pt/",
+			"description" : "Consultant, Full-stack software engineer, working for several clients."
+		},
+		{
+			"timeperiod" : "Nov 2014 - Nov 2015",
+			"company" : "Altice Labs",
+			"website" : "https://www.alticelabs.com/",
+			"description" : "Member of the Ruby on Rails development team. Full-stack development and maintenance of several TelCo products:\nFortuna-Oi,\nAPM - Active Portfolio Manager,\nQuantum QTC - Quantum Technical Catalog,\nQuantum QBO - Quantum Backoffice"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"SQL (Oracle, SQLite, PostgreSQL)" : "90",
+		"Javascript" : "40",
+		"Java" : "65",
+		"Python" : "97",
+		"Django" : "90",
+		"HTML/CSS": "90",
+		"Scipy, Matplotlib, Seaborn, Pandas" : "70",
+		"Data visualization" : "80",
+		"REST APIs": "90",
+		"GIT / Gitlab": "90",
+		"Ruby on Rails": "20",
+		"Data Processing (ETL)" : "90"
+	}
+}
