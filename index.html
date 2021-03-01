@@ -1,19 +1,19 @@
-{{ partial "layouts/header.html" . }}
-{{ partial "layouts/sidebar.html" . }}
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
 
 <div class="main-content">
-	{{ if .Site.Data.skills }}{{ partial "layouts/skills.html" . }}{{ end }}
-	{{ if .Site.Data.experience }}{{ partial "layouts/experience.html" . }}{{ end }}
+	{{ if .Site.Data.skills }}{{ partial "skills.html" . }}{{ end }}
+	{{ if .Site.Data.experience }}{{ partial "experience.html" . }}{{ end }}
 </div>
 
 <div style="z-index: 4; position: relative;">
-	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}{{ partial "layouts/blog.html" . }}{{ end }}
-	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}{{ partial "layouts/work.html" . }}{{ end }}
+	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}{{ partial "blog.html" . }}{{ end }}
+	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}{{ partial "work.html" . }}{{ end }}
 </div>
 
 <div class="main-content">
-	{{ partial "layouts/contact.html" . }}		
+	{{ partial "contact.html" . }}		
 </div>
 
-{{ partial "layouts/footer-scripts.html" . }}
+{{ partial "footer-scripts.html" . }}
 	
